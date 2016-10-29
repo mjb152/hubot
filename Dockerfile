@@ -37,4 +37,3 @@ RUN npm install cheerio --save && npm install
 
 # And go
 #CMD ["/bin/sh", "-c", "aws s3 cp --region eu-west-1 s3://pgarbe-secrets/env.sh .; . ./env.sh; bin/hubot --adapter slack"]
-CMD ["/bin/hubot --adapter slack"]
